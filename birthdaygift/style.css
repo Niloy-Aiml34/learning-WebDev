@@ -1,0 +1,56 @@
+.hero-section{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-size:x-large;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+body{
+    margin: 0;
+    background: linear-gradient(rgb(0, 208, 255) ,rgb(255, 255, 255));
+    color: rgb(242, 246, 252);
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 1px rgb(73, 72, 72) ;
+}
+
+#profile_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 8px solid pink;
+}
+
+.pink-bg{
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: pink;
+}
+
+.gift-box{
+    width: 577px;
+    height: 433px;
+    background-image: url("giftbox.png");
+    background-size: cover;
+}
+
+.gift-box:hover{
+    background-image: url("switch2.png");
+    width: 577px;
+    height: 433px;
+    background-size: contain;
+}
+
+.image-section{
+    font-family: "Happy Monkey", system-ui;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}

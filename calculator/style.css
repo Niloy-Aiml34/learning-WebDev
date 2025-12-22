@@ -1,0 +1,17 @@
+#num1-el{
+    border-bottom: 1px solid black;
+}
+
+#num2-el{
+    border-bottom: 1px solid black;
+}
+button{
+    margin-top: 15px;
+}
+#result{
+    display: block;
+    margin-top: 15px;
+}
+body{
+    text-align: center;
+}

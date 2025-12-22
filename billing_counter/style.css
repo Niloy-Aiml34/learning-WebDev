@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+button{
+    background: darkred;
+    color: azure;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    margin-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+}

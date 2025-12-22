@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.red {
+    background: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 40px auto;
+    
+}

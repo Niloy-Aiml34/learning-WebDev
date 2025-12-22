@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+@font-face {
+  font-family: score-font;
+  src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+.body-cls{
+    
+    width: 676px;
+    height: 450px;
+    margin: 50px auto;
+    background-color: #000C3D;
+    border: 5px solid #C6C6C6;
+    border-radius: 20px;
+    padding: 15px;
+    
+    text-align: center;
+}
+
+.heading{
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+    
+}
+.home {
+    color: rgba(255, 234, 0, 0.901);
+}
+
+.guest {
+    color: rgba(255, 148, 81, 0.901);
+}
+
+.score{
+    margin: 10px auto 30px;
+    padding-top: 20px;
+     
+    display: flex;
+    background-color: black;
+    width: 177px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: score-font;
+    font-size: 90px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    
+    
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+}
+
+.button-cls{
+    width: 52px;
+    font-family: score-font;
+    font-size: 20px;
+    font-weight: 100;
+    
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    background: #000c3d00;
+    color: whitesmoke;
+
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#reset-button{
+    display: block;
+    margin: 45px auto;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000C3D;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    
+}
+
+
+

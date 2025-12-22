@@ -1,0 +1,12 @@
+{
+  "name": "wildhorizon",
+  "version": "1.0.0",
+  "description": "dataset for tourist places",
+  "license": "ISC",
+  "author": "Niloy Das",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

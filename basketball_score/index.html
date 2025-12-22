@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body-cls">
+        <div class="flex-box">
+            <div class="home">
+                <h1 class="heading">HOME</h1>
+                <h1 class="score" id="score-home">0</h1>
+                <div class="button-wrapper">
+                    <button class="button-cls" onclick="homeadd1()">+1</button>
+                    <button class="button-cls" onclick="homeadd2()">+2</button>
+                    <button class="button-cls" onclick="homeadd3()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h1 class="heading">GUEST</h1>
+                <h1 class="score" id="score-guest">0</h1>
+                <div class="button-wrapper">
+                    <button class="button-cls" onclick="guestadd1()">+1</button>
+                    <button class="button-cls" onclick="guestadd2()">+2</button>
+                    <button class="button-cls" onclick="guestadd3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="reset-button" onclick="reset()">RESET SCORE</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
